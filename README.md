@@ -1,2 +1,2 @@
-# Shion-House-Fashion
-Shion House E-commerce
+# Shion-Fashion-House
+Shion Fashion House E-commerce
