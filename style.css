@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+.dropdown-menu{
+    margin-top: 20px;
+}
+#navbarDropdown::after {
+    content: none ;
+}
+
+.nav-link{
+    font-family: Poppins, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.carousel .carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-bottom: 50px;
+}
+
+/* @media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+      display: none;
+    }
+    .navbar .nav-item:hover .nav-link {
+      color: #fff;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+      display: block;
+    }
+    .navbar .nav-item .dropdown-menu {
+      margin-top: 20px;
+    } */
+
+    .fab{
+        margin: 10px;
+        border-radius: 50px;
+        border: 2px solid #E6E6EA;
+        padding: 10px;
+        color: #706c7a;
+        background-color: #fff;
+    }
+
+    .fas{
+        margin: 10px;
+        border-radius: 50px;
+        border: 2px solid #E6E6EA;
+        padding: 10px;
+        background-color: #f1f4f5;
+        color: #706c7a;
+    }
+
+    .shoppingbag{
+        margin: 10px;
+        border-radius: 25px;
+        border: 2px solid #E6E6EA;
+        color: white;
+        background-color: #9F78FF;
+        padding: 10px 20px;
+    }
+
+    .shop-bag{
+        /* margin-top: 5px;
+        margin-left: 240px;
+        border-radius: 50px;
+        border: 2px solid #E6E6EA;
+        padding: 5px 10px;
+        padding-bottom: 10px;
+        color: #706c7a; */
+        position: absolute;
+    }
+
+    .carousel slide{
+        position: relative;
+    }
+
+  .button{
+        position: absolute;
+        margin-bottom: 100px;
+        background-color: transparent;
+        text-decoration: none;
+    }
+
+    .new-arrival{
+      text-align: center;
+      font-size: 50px;
+      color: blueviolet;
+    }
+
+    .carouselimg{
+      position: relative;
+    }
+
+    .carousel-text{
+      font-size: 120px;
+      color: #ffffff;
+      background-color: transparent;
+    }
+
+    .first-button{
+
+    }
+
+
+  .mycarouseltext{
+    font-size: 120px;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    width: 60px;
+    justify-content: center;
+  }
+
+  .button {
+    background: var(--lilac);
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #8c6ae4;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.8s;
+    transition: ease-out 0.8s;
+  }
+  .button:hover {
+    box-shadow: inset 400px 0 0 0 #8c6ae4;
+  }
+  .slide-down {
+    background: transparent;
+    color: var(--lilac);
+    cursor: pointer;
+    border: 1px solid;
+    box-shadow: inset 0 0 0 0 #8c6ae4;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.5s;
+    transition: ease-out 0.5s;
+  }
+  .slide-down:hover {
+    box-shadow: inset 0 100px 0 0 #8c6ae4;
+    color: #fff;
+  }/*button end*/
+
